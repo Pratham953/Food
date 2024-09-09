@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="themes.FoodDeleivery" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#ff5e00</item>
+        <item name="colorPrimaryVariant">#ff5e00</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">#00BCD4</item>
+        <item name="colorSecondaryVariant">#0482B6</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+</resources>
