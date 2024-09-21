@@ -17,7 +17,7 @@ import com.example.fooddeleivery.R;
 
 import java.util.ArrayList;
 
-public class CategoryAdaptor extends RecyclerView.Adapter<CategoryAdaptor.ViewHolder> {
+public class    CategoryAdaptor extends RecyclerView.Adapter<CategoryAdaptor.ViewHolder> {
     ArrayList<CategoryDomain>categoryDomains;
 
     public CategoryAdaptor(ArrayList<CategoryDomain> categoryDomains) {
