@@ -58,5 +58,6 @@ private RecyclerView recyclerViewCategoryList,recyclerViewPopularList;
 
         adapter2=new PopularAdaptor(foodList);
         recyclerViewPopularList.setAdapter(adapter2);
+        String lk;
     }
 }
